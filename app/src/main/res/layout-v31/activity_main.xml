@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   android:backgroundTint="@android:color/system_accent1_800"
+
+    android:id="@+id/linearcol"
+    android:background="#CF8F8F"
+    tools:context=".MainActivity">
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+      android:layout_marginBottom="150dp"
+        android:textSize="30dp"
+        android:textColor="#232321"
+       android:background="#3475A8"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:hint="@string/hint_weight"
+        android:id="@+id/edtweight"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/edtheightFT"
+        android:inputType="number"
+        android:hint="@string/hint_heightFt"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_heightIn"
+        android:id="@+id/edtheightIN"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI "
+        android:backgroundTint="#3475A8"
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:text="Result"
+        android:id="@+id/viewresult"/>
+
+</LinearLayout>
